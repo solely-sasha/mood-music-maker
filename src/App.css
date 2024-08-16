@@ -1,0 +1,184 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin-bottom: 20px; 
+  background-color: #333; 
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px; 
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  color: #777;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.playlist {
+  margin-top: 30px;
+  text-align: center; 
+}
+
+.playlist h2 {
+  margin-bottom: 10px; 
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; 
+  max-width: 500px; 
+}
+
+.playlist li {
+  padding: 8px 12px; 
+  border-bottom: 1px solid #eee; 
+}
+
+.playlist li:last-child {
+  border-bottom: none; 
+}
+
+.playlist li a {
+  color: #333; 
+  text-decoration: none; 
+}
+
+.playlist li a:hover {
+  text-decoration: underline;
+}
+
+.playlist h3 {
+  margin-top: 20px; 
+}
+
+.playlist button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px; 
+}
+
+.playlist button:hover {
+  background-color: #0056b3; 
+}
+
+.playlist input[type="text"] {.
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.about-container.dark {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.theme-toggle-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #0056b3;
+}
