@@ -33,6 +33,7 @@ export default function GenreSelector({ selectedGenre, onGenreChange }) {
     "chill",
     "christmas songs",
     "halloween songs",
+    "Taylor Swift",
   ]);
 
   const handleSelectChange = (e) => {
